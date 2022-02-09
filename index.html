@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ProMail</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+	    <h1 class="homeH1">ProMail</h1>
+	  	<img src="img/mail.png" class="logo">
+	    <div class="home">
+	    	<!--partie s'incrire, FORM 1-->
+		    <div class="homebox1">
+		    <p class="inup">Créez un compte</p>
+
+		    <!--ouvre la page sign up après le moment l'utilisateur appuie le button s'inscrire-->
+		    <form action="signup.html">
+		    <label for="civilite">Civilité :</label><br>
+		    	<!--radio button à cocher, 1 choix-->
+			  <input type="radio" id="m" name="civilite" value="monsieur">
+			  <label for="Monsieur">M.</label><br>
+			  <input type="radio" id="m" name="civilite" value="madame">
+			  <label for="madame">Mme.</label><br><br>
+
+		    <label for="nom">Nom :</label>
+		    <input type="text" id="nom" name="nom">
+
+		    <label for="prenom">Prénom :</label>
+		    <input type="text" id="prenom" name="prenom">
+
+		    <label for="mailid">Identifiant :</label>
+		    <input type="text" id="mailid" name="identifiant" placeholder="mail@promail.com">
+
+		    <label for="mdp">Mot de passe :</label>
+		    <input type="password" id="pwd" name="pwd" minlength="8"><br><br>
+
+		    <label for="mdp">Confirmation de mot de passe :</label>
+		    <input type="password" id="pwd" name="pwd" minlength="8"><br><br>
+		      
+		    <input type="submit" value="S'INSCRIRE" class="homebutton">
+		    </form>
+		    </div>
+
+		    <!--partie se connecter, FORM 2-->
+		    <div class="homebox2">
+		    <p class="inup">Entrez votre identifiant et votre mot de passe.</p>
+		    <!--ouvre la page open account après le moment l'utilisateur appuie le button se connecter-->
+		    <form action="openaccount.html">
+		    <label for="mailid">Identifiant :</label>
+		    <input type="text" id="mailid" name="identifiant" placeholder="mail@promail.com">
+
+		    <label for="mdp">Mot de passe :</label>
+		    <input type="password" id="pwd" name="pwd" minlength="8"><br><br>
+			
+			<!--case (optionnelle) à cocher-->
+		    <input type="checkbox">
+		    <label class="container">Se souvenir de moi
+			<span class="checkmark"></span>
+			</label><br><br>
+
+		    <input type="submit" value="SE CONNECTER" class="homebutton">
+		    </form>
+		    </div>
+	   </div>
+  </body>
+</html>

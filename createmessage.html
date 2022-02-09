@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ProMail</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!--partie gauche-->
+    <div class="info">
+        <div class="minihead">
+          <img src="img/avataricon.png" class="icon">
+          <h1 class="nom"> ALBARICO Marjorie </h1>
+          <h2 class="mail"> albarico.marjorie@promail.com </h2>
+          <img src="img/setting.png" class="icon" id="setting">
+        </div>
+        <!--menu-->
+        <div class="sideopt">
+          <div class="opt">
+          <a href="createmessage.html"><img src="img/compose.png" class="menuicon"></a>
+          <a href="createmessage.html" class="optiontext">Nouveau Message</a>
+        </div>
+        <div class="opt">
+          <a href="nomessage.html"><img src="img/inbox.png" class="menuicon"></a>
+          <a href="openaccount.html" class="optiontext">Boite de réception</a>
+        </div>
+        <div class="opt">
+          <a href="nomessage.html"><img src="img/send.png" class="menuicon"></a>
+          <a href="nomessage.html" class="optiontext">Messages envoyés</a>
+        </div>
+        <div class="opt">
+          <a href="nomessage.html"><img src="img/draft.png" class="menuicon"></a>
+          <a href="nomessage.html" class="optiontext">Brouillon</a>
+        </div>
+        <div class="opt">
+          <a href="nomessage.html"><img src="img/bin.png" class="menuicon"></a>
+          <a href="nomessage.html" class="optiontext">Corbeille</a>
+        </div>
+      </div>
+    </div>
+    <!--partie droite-->
+    <div class="fullinfo">
+    	<div class="rightheader">
+        <p class="date">Mercredi, 09 Décembre 2020</p>
+        <a href="contact.html"><img src="img/contact.png" class="icon" id="sideicons"></a>
+        <a href="https://calendar.google.com/"><img src="img/calendar.png" class="icon" id="sideicons"></a>
+        <a href="index.html"><img src="img/power.png" class="icon" id="sideicons"></a>
+    	</div>
+        <div class="composebox" id="sendmessage">
+        <form action="#">
+        <label for="tosend">À :</label>
+        <input type="text" id="sendto" name="sendto" placeholder="mail@promail.com">
+
+        <label for="sujet">Sujet :</label>
+        <input type="text" id="sujet" name="sujet">
+      
+        <label for="mess">Message :</label><br>
+        <textarea class="composemess"></textarea>
+
+        <input type="submit" value="ENVOYER" class="homebutton" onclick="myFunctionSend()">
+        </form>
+        </div>
+
+        <!--javascript-->
+        <!--message de la confirmation-->
+        <script>
+        function myFunctionSend() {
+          document.getElementById("sendmessage").innerHTML = "Message envoyé";
+        }
+        </script>
+
+  </body>
+</html>

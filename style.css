@@ -1,0 +1,308 @@
+/*fixe*/
+body{
+	height: 100%;
+  margin:0%;
+  width: 100%;
+}
+
+/*page index*/
+.whole{
+	background-color: #53838c;
+	width: 100%;
+}
+
+.logo{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  margin-top: 2px;
+  margin-bottom: 15px;
+}
+
+.homeH1{
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+/*partie 's'inscrire'*/
+.homebox1{
+  border-style: solid;
+  border-radius: 5px;
+  width: 45%;
+  margin-bottom: 20px;
+  padding: 10px;
+  float:left;
+  margin-right: 50px;
+}
+
+/*partie 'se connecter'*/
+.homebox2{
+  border-style: solid;
+  border-radius: 5px;
+  width: 45%;
+  margin-bottom: 20px;
+  padding: 10px;
+  float:left;
+  margin-top: 150px;
+}
+
+.inup{
+  margin-top: 0px;
+  font-size: 20px;
+  text-align: center;
+}
+
+/*FORM*/
+input[type=text], select {
+  width: 100%;
+  padding: 10px 15px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/*button s'inscrire et se connecter*/
+.homebutton {
+  width: 80%;
+  background-color: #00ADEF;
+  color: white;
+  padding: 10px 15px;
+  display: block;
+  margin-right: auto;
+  margin-left:  auto;
+  margin-top: 0px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+input[type=password], select {
+  width: 100%;
+  padding: 10px 15px;
+  margin: 5px 0px 0px 0px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/*HOVER: apparence d'un élément au moment où l'utilisateur le survole avec le pointeur, sans nécessairement l'activer.*/
+.homebutton:hover {
+  background-color: #0075A1;
+}
+
+/*div qui contient les 2 forms*/
+.home{
+  width: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
+  box-sizing: border-box;
+}
+
+#civilite{
+  margin-bottom: 8px;
+}
+
+/*page openaccount*/
+.info{
+  width: 20%;
+  background-color:   #FFFFFF;
+  display: inline-block;
+}
+
+.icon{
+  width: 30px;
+  height: 30px;
+}
+
+/*icon : boite de reception, nouveau message, message envoyé, brouillon, corbeille */
+.menuicon{
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+
+/*partie gauche, contient le nom, prenom, mail*/
+.minihead{
+  padding: 10px;
+  background-color: #35bdbd;
+}
+
+/*menu nouveau message, boite de reception, etc*/
+.sideopt{
+  padding: 10px;
+}
+
+/*nom placé dans minihead*/
+.nom{
+  font-size: 23px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+/*mail placé dans minihead*/
+.mail{
+  font-size: 15px;
+  margin-top: 0px;
+  display: inline-block;
+}
+
+/*image de parametre placé dans minihead*/
+#setting{
+  float: right;
+  margin-top: -15px;
+}
+
+/*div qui contient chaque menu*/
+.opt{
+  padding: 5px;
+  transition: transform .2s;
+}
+
+/*HOVER: apparence d'un élément au moment où l'utilisateur le survole avec le pointeur, sans nécessairement l'activer.*/
+.opt:hover{
+  border-style: solid;
+  border-color: #b8baba;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+/*partie haute droite*/
+.rightheader{
+  background-color: #35bdbd;
+  padding-top: 15px;
+  padding-left: 40px;
+}
+
+/*div qui contient la partie droite*/
+.fullinfo{
+  display: inline-block;
+  float: right;
+  width: 80%;
+}
+
+.date{
+  display: inline-block;
+  margin-left: 50px;
+  font-size: 20px;
+  margin-right: 50%;
+}
+
+/*icons contact, agenda, se deconnecter*/
+#sideicons{
+  margin-left: 25px;
+}
+
+/*contenu de mail*/
+.mailinfo{
+  display: inline-block;
+  width: 50%;
+  padding-left: 20px;
+  border-left-style: solid;
+}
+
+.nommail{
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.datemail{
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.messagebox{
+  display: inline-block;
+  float: left;
+  vertical-align: top;
+  background-color: #dcdede;
+  width: 30%;
+  height: 1040px;
+}
+
+.attachment{
+  width: 750px;
+  height: 500px;
+}
+
+.sujet{
+  font-size: 15px;
+}
+
+
+.a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 15px;
+  display: inline-block;
+  margin:10px;
+}
+
+/*style de lien*/
+a:link {
+  text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 15px;
+  	display: inline-block;
+  	margin:10px;
+}
+
+a:visited {
+  	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 15px;
+  	display: inline-block;
+  	margin:10px;
+}
+
+a:hover {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 15px;
+  	display: inline-block;
+  	margin:10px;
+}
+
+a:active {
+  	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 15px;
+  	display: inline-block;
+  	margin:10px;
+}
+
+/*page create message*/
+.composebox{
+	padding: 20px;
+}
+
+.composemess{
+	display: block;
+	padding: 10px;
+	margin: 10px;
+	width: 96%;
+	height: 450px;
+}
+
+/*page contact*/
+table, th, td {
+  border: 1px solid black;
+  margin: 20px;
+  padding: 5px;
+}
+
+.contacticon{
+	height: 40px;
+	width: 40px;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ProMail -- Contact</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!--partie gauche-->
+    <div class="info">
+        <div class="minihead">
+          <img src="img/avataricon.png" class="icon">
+          <h1 class="nom"> ALBARICO Marjorie </h1>
+          <h2 class="mail"> albarico.marjorie@promail.com </h2>
+          <img src="img/setting.png" class="icon" id="setting">
+        </div>
+        <!--menu-->
+        <div class="sideopt">
+          <div class="opt">
+          <a href="createmessage.html"><img src="img/compose.png" class="menuicon"></a>
+          <a href="createmessage.html" class="optiontext">Nouveau Message</a>
+          </div>
+          <div class="opt">
+            <a href="nomessage.html"><img src="img/inbox.png" class="menuicon"></a>
+            <a href="openaccount.html" class="optiontext">Boite de réception</a>
+          </div>
+          <div class="opt">
+            <a href="nomessage.html"><img src="img/send.png" class="menuicon"></a>
+            <a href="nomessage.html" class="optiontext">Messages envoyés</a>
+          </div>
+          <div class="opt">
+            <a href="nomessage.html"><img src="img/draft.png" class="menuicon"></a>
+            <a href="nomessage.html" class="optiontext">Brouillon</a>
+          </div>
+          <div class="opt">
+            <a href="nomessage.html"><img src="img/bin.png" class="menuicon"></a>
+            <a href="nomessage.html" class="optiontext">Corbeille</a>
+          </div>
+      </div>
+    </div>
+    <!--partie droite-->
+    <div class="fullinfo">
+      <div class="rightheader">
+        <p class="date">Mercredi, 09 Décembre 2020</p>
+        <a href="contact.html"><img src="img/contact.png" class="icon" id="sideicons"></a>
+        <a href="https://calendar.google.com/"><img src="img/calendar.png" class="icon" id="sideicons"></a>
+        <a href="index.html"><img src="img/power.png" class="icon" id="sideicons"></a>
+      </div>
+
+      <!--tableau de contact-->
+      <table>
+        <!--Chaque ligne est définie par l'élément TR-->
+        <!--Chaque cellule est ensuite construite à l'aide de l'élément TD-->
+        <tr>
+          <th>Photo</th>
+          <th>Nom</th>
+          <th>Prenom</th>
+          <th>Mail</th>
+        </tr>
+        <tr>
+          <td><img src="img/contact1.png" class="contacticon"></td>
+          <td>Pop</td>
+          <!--rowspan : Indique que la cellule courante s'étend sur 2 lignes-->
+          <td rowspan="2">Bob</td>
+          <td>Bob.pop@promail.com</td>
+        </tr>
+        <tr>
+          <td><img src="img/contact2.png" class="contacticon"></td>
+          <td>Tata</td>
+          <td>Tata.b@promail.com</td>
+        </tr>
+        <tr>
+          <td><img src="img/contact3.png" class="contacticon"></td>
+          <td>Tea</td>
+          <td>Boba</td>
+          <td>Bobatea@promail.com</td>
+        </tr>
+        <tr>
+          <!--colspan : Indique que la cellule courante s'étend sur 4 colonnes-->
+          <td colspan="4">3 personnes</td>
+        </tr>
+        </table>
+  </body>
+</html>
